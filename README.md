@@ -2,7 +2,7 @@
 - Author: Byung Eun Jeon
 - Project for Functional Programming course at the University of Chicago
 
-![game-start-screenshot](https://github.com/byungeunjeon/functional-adventure/blob/master/screenshot.png)
+![game-start-screenshot](https://github.com/byungeunjeon/adventure-game-haskell/blob/master/screenshot.png)
 
 ## Prerequisites and Usage
 
