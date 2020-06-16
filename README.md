@@ -1,7 +1,7 @@
 # Functional Adventure
 - Byung Eun Jeon
 
-
+![game-start-screenshot](https://github.com/byungeunjeon/functional-adventure/blob/master/screenshot.png)
 
 ## Usage
 
