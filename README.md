@@ -16,11 +16,15 @@ stack exec functional-adventure
 
 You can use these commands
 - look
-- north / west / south /east
 - take (item)
 - drop (item)
-- (command) and (command)
-- exit / quit
+- north
+- west
+- south
+- east
+- (command) and (command) and ...
+- exit
+- quit
 
 ## Hint for Winning
 
@@ -28,9 +32,9 @@ Since the player is lost in an island, the winning strategy is to bring a certai
 
 ## Game Over
 
-Player can die, ending the game prematurely. This happens when the player takes a ball (which is actually a grenade). The item "ball" is located in two places: garage and living room. Taking any one of two balls will make the player die with the aforementioned messages. 
+Player can die, ending the game prematurely. This happens when the player takes a ball (which is actually a grenade). The item "ball" is located in two places: garage and living room. Taking any one of two balls will make the player die. 
 
-For example, you can do this (from the initialState) to make player die. 
+For example, you can do this from the initialState to make player die. 
 ```
 -> north and take ball
 ```
