@@ -4,8 +4,9 @@
 
 ![game-start-screenshot](https://github.com/byungeunjeon/functional-adventure/blob/master/screenshot.png)
 
-## Usage
+## Prerequisites and Usage
 
+Haskell GHC version 8.8.3
 ```
 stack build
 stack exec functional-adventure
