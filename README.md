@@ -10,6 +10,16 @@ stack build
 stack exec functional-adventure
 ```
 
+## Command
+
+You can use these commands
+- look
+- north / west / south /east
+- take (item)
+- drop (item)
+- (command) and (command)
+- exit / quit
+
 ## Hint for Winning
 
 Since the player is lost in an island, the winning strategy is to bring a certain item into somewhere so that the player can be rescued. Be aware that there is a limit to the total weight of items that players can carry. 
