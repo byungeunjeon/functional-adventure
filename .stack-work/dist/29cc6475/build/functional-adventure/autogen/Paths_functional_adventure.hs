@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\bin"
-libdir     = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\lib\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0-94p0FQsPvoz8Bfs6paU90r-functional-adventure"
-dynlibdir  = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\lib\\x86_64-windows-ghc-8.8.3"
-datadir    = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\share\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0"
-libexecdir = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\libexec\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0"
-sysconfdir = "C:\\Users\\byung\\Desktop\\functional-adventure\\.stack-work\\install\\00831771\\etc"
+bindir     = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\bin"
+libdir     = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\lib\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0-94p0FQsPvoz8Bfs6paU90r-functional-adventure"
+dynlibdir  = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\lib\\x86_64-windows-ghc-8.8.3"
+datadir    = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\share\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0"
+libexecdir = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\libexec\\x86_64-windows-ghc-8.8.3\\functional-adventure-0.1.0.0"
+sysconfdir = "C:\\Users\\byung\\Desktop\\adventure-game-haskell\\.stack-work\\install\\00831771\\etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "functional_adventure_bindir") (\_ -> return bindir)
