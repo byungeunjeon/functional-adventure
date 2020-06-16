@@ -1,8 +1,8 @@
-name:                functional-adventure
+name:                adventure-game-haskell
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/functional-adventure#readme
+homepage:            https://github.com/githubuser/adventure-game-haskell#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Author name here
